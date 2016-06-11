@@ -3,8 +3,8 @@
  **********************************************************************************************/
 /** Map relative paths to URLs. */
 var map = {
-    '@select2': 'vendor/@select2',
-    '@jquery': 'vendor/@jquery'
+    'jquery': 'vendor/jquery/dist/jquery.min.js',
+    'select2': 'vendor/select2/dist/js/select2.min.js'
 };
 /** User packages configuration. */
 var packages = {};
