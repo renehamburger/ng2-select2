@@ -19,6 +19,11 @@ var packages = {
         defaultExtension: 'js'
     }
 };
+var meta = {
+    '@select2': {
+        deps: ['@jQuery']
+    }
+};
 ////////////////////////////////////////////////////////////////////////////////////////////////
 /***********************************************************************************************
  * Everything underneath this line is managed by the CLI.
@@ -54,4 +59,4 @@ System.config({
     packages: cliSystemConfigPackages
 });
 // Apply the user's configuration.
-System.config({ map: map, packages: packages });
+System.config({ map: map, packages: packages, meta: meta });
