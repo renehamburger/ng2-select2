@@ -3,11 +3,22 @@
  **********************************************************************************************/
 /** Map relative paths to URLs. */
 var map = {
-    'jquery': 'vendor/jquery/dist/jquery.min.js',
-    'select2': 'vendor/select2/dist/js/select2.min.js'
+    '@jQuery': 'vendor/jquery/dist',
+    '@select2': 'vendor/select2/dist/js'
 };
 /** User packages configuration. */
-var packages = {};
+var packages = {
+    '@jQuery': {
+        main: 'jquery.min.js',
+        format: 'global',
+        defaultExtension: 'js'
+    },
+    '@select2': {
+        main: 'select2.min.js',
+        format: 'global',
+        defaultExtension: 'js'
+    }
+};
 ////////////////////////////////////////////////////////////////////////////////////////////////
 /***********************************************************************************************
  * Everything underneath this line is managed by the CLI.
