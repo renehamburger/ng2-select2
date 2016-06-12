@@ -2,14 +2,14 @@ export declare class DataService {
     getSimpleList(): ({
         id: string;
         text: string;
-        addition: {
+        additional: {
             image: string;
             winner: string;
         };
     } | {
         id: string;
         text: string;
-        addition: {
+        additional: {
             winner: string;
         };
     })[];
