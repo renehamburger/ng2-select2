@@ -26,11 +26,11 @@ testem.log
 /config
 /e2e
 /public
-/src
+# /src
 /*.*
-/dist/app
-/dist/vendor
-/dist/*.*
-!/dist/ng2-select2.js
-!/dist/ng2-select2.d.ts
+# /dist/app
+# /dist/vendor
+# /dist/*.*
+# !/dist/ng2-select2.js
+# !/dist/ng2-select2.d.ts
 /typings/**
